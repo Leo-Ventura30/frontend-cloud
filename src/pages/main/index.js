@@ -32,6 +32,7 @@ export default class main extends Component {
         <div id="main-container">
             
             <form onSubmit={this.handleSubmit}>
+                <li>BUXI on the box</li>
                 <img id="logo" src={logo} alt=""/>
                 <input placeholder="Criar Box"
                        value={this.state.newBox}
