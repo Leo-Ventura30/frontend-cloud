@@ -30,16 +30,16 @@ export default class main extends Component {
   render() {
     return (
         <div id="main-container">
-            
+            <li>BUXI on the box</li>
             <form onSubmit={this.handleSubmit}>
-                <li>BUXI on the box</li>
                 <img id="logo" src={logo} alt=""/>
                 <input placeholder="Criar Box"
                        value={this.state.newBox}
                        onChange={this.handleInputChange}
                        />
-                <button type="submit">Criara</button>
+                <button type="submit">Criar</button>
             </form>
+            <li>Armazene seus arquivos com confiabilidade e rapidez!</li>
         </div>
     );
   }
